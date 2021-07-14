@@ -9,6 +9,13 @@
     "noImplicitReturns": true,
     "noFallthroughCasesInSwitch": true,
     "sourceMap": true,
+    "paths": {
+      "@mine-ui/angular": [
+        // "dist/components/mine-ui-angular",
+        // "dist/components",
+        "components"
+      ]
+    },
     "declaration": false,
     "downlevelIteration": true,
     "experimentalDecorators": true,
